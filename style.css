@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+.aft:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
 body
 {
     font-family: sans-serif;
@@ -27,13 +33,15 @@ body
 {
     width: 60px; 
     height: 60px; 
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: #fff;
 }
 .logo-label
 {
     font-weight: 700;
     margin-left: 5px;
+    color: #fff;
 }
 .navbar-nav li
 {
@@ -96,4 +104,54 @@ body
 .bottom-img
 {
     width: 100%;
+}
+.getInvolve
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 40%;
+    height: 80px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+}
+.num
+{
+    font-size: 600%;
+    color: tomato;
+}
+.num-label
+{
+    font-size: 220%;
+}
+
+
+/*------------------ blogs section--------------*/
+
+#blogs
+{
+    padding: 80px 0;
+}
+#blogs a
+{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.blogs-img
+{
+    width: 100%;
+}
+.in-col
+{
+    height: 500px;
+    border: 1px solid lightgrey; 
+    transition: transform .5s;
+    overflow: hidden;
+}
+.in-col:hover
+{
+    transform: scale(1.05); 
 }
