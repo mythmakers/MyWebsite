@@ -15,6 +15,85 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(#a517ba, #5f1782);
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
     padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.logo-icon
+{
+    width: 60px; 
+    height: 60px; 
+    margin-top: 10px;
+    color: #fff;
+}
+.logo-label
+{
+    font-weight: 700;
+    margin-left: 5px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 34px !important; 
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*-------------------------- banner section -------------------*/
+
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    color: #fff;
+    /* padding-top: 1%; */
+}
+.promo-title
+{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.wildlife
+{
+    color: tomato;
+}
+.play-btn
+{
+    width: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#banner button
+{
+    color: white;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#seeVid :hover
+{
+    cursor: pointer;
+}
+.bottom-img
+{
+    width: 100%;
 }
