@@ -78,9 +78,20 @@ body
     font-weight: 600;
     margin-top: 100px;
 }
+.promo-title::before
+{
+    content: '';
+    content: '';
+    background-color: #ff6347;
+    height: 30px;
+    width: 150px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+}
 .wildlife
 {
-    color: tomato;
+    color:  #ff6347;
 }
 .play-btn
 {
@@ -120,7 +131,7 @@ body
 .num
 {
     font-size: 600%;
-    color: tomato;
+    color:  #ff6347;
 }
 .num-label
 {
@@ -140,9 +151,38 @@ body
     color: black;
     margin-top: 20px;
 }
+.blogs
+{
+    padding: 10px;
+}
 .blogs-img
 {
     width: 100%;
+}
+.title::before
+{
+    content: '';
+    content: '';
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    content: '';
+    background-color: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
 }
 .in-col
 {
@@ -151,7 +191,180 @@ body
     transition: transform .5s;
     overflow: hidden;
 }
+
 .in-col:hover
 {
     transform: scale(1.05); 
+}
+#blogs .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+}
+#blogs .btn-primary:hover
+{
+    opacity: 0.8;
+    background-color: whitesmoke;
+}
+
+/* ------------------------ about us section -------------------------- */
+
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul
+{
+    margin-left: -10px;
+}
+#about-us ul li
+{
+    margin: 10px 0;
+
+}
+
+/* ---------------------- Testimonails section ---------------------------------- */
+
+#testimonials
+{
+    padding: 70px 0;
+}
+.testimonials
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+#movement
+{
+    background-color:  #ff6347;
+    height: 400px;
+}
+.movement
+{
+    padding: 90px 0;
+}
+.movement-title
+{
+    font-size: 80px;
+    color: #fff;
+}
+.movement-sub-title
+{
+    font-size: 40px;
+    color: #fff;
+}
+
+/* ------------------------------- social media section ----------------------------------- */
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/* ------------------------------- footer section ----------------------------------- */
+
+#footer
+{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 10px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    margin-top: 25px;
+    max-width: 300px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    /* border: none; */
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.my-name
+{
+    text-decoration-color: skyblue;
+    text-decoration-thickness: 1px;
+    color: #fff;
+}
+.my-name:hover
+{
+    color: #fff;
+    opacity: 0.5;
 }
