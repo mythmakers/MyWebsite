@@ -368,3 +368,89 @@ hr
     color: #fff;
     opacity: 0.5;
 }
+.href
+{
+    text-decoration: none;
+    color: #fff;
+}
+.href:hover
+{
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.7;
+}
+
+/* --------------------------- project section ------------------------------ */
+
+#projects
+{
+    margin: 100px 0;
+}
+.project-title
+{
+    font-size: 60px;
+    font-weight: 500;
+}
+.project-text
+{
+    margin-top: 50px;
+}
+.work-heading
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #d3523b;
+}
+
+/* --------------------------- impact section ------------------------------ */
+
+#impact
+{
+    margin: 100px 0;
+}
+.impact
+{
+    border: 1px solid black;
+    padding: 80px;
+}
+.impact-in
+{
+    padding: 0 80px;
+}
+.impact-in .form-tab
+{
+    width: 80%;
+}
+.impact-in input
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.form-right-tab td
+{
+    padding: 0 10px;
+}
+.impact-in textarea
+{
+    width: 100%;
+    padding: 25px 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.form-submit-btn
+{
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 5px 0;
+}
+.form-submit-btn:hover
+{
+    color: #ff6347;
+}
